@@ -1,0 +1,71 @@
+/* BLUES */
+//// Peter river
+$peterRiver:rgba(52, 152, 219,1.0);
+// Belize Hole
+$belizeHole:rgba(41, 128, 185, 1.0);
+//// MidNight blue
+$midnightBlue:rgba(44, 62, 80,1.0);
+
+/* GREYS */
+//Wet Asphalt
+$wetAsphalt:rgba(52, 73, 94,1.0);
+//asbestos
+$asbestos:rgba(127, 140, 141,1.0);
+
+/* GREENS */
+//Nephritis
+$nephritis:rgba(39, 174, 96,1.0);
+// Turqoise
+$turqoise:rgba(26, 188, 156,1.0);
+//// Grean sea
+$greenSea:rgba(22, 160, 133,1.0);
+
+/* REDS */
+//// Alizarin
+$alizarin:rgba(231, 76, 60,1.0);
+//// Pomegranate
+$pomegranate:rgba(192, 57, 43,1.0);
+
+$A500:#3f51b5;
+$accent:$greenSea;
+
+::selection {
+  color:white;
+  background-color:$accent;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.accent {
+  background-color: $accent !important;
+  color:white !important;
+}
+
+.A500 {
+  background-color: $A500;
+}
+
+$text:rgba(0,0,0,85);
+$text-muted:#777778;
+
+
+// Shadows
+.depth-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.depth-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.depth-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.depth-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.depth-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}

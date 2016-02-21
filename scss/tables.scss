@@ -1,0 +1,52 @@
+table {
+  background-color: #fff;
+  @extend .depth-1;
+  border-spacing: 0px;
+
+  thead {
+    //height: 56px;
+    tr {
+      height: 56px;
+      text-align: left;
+      color: rgba(0, 0, 0, 0.54);
+      th {
+        padding-left: 56px;
+        text-align: left;
+        &:first-of-type {
+          padding-left: 24px;
+        }
+        td.number {
+          text-align: right;
+        }
+      }
+      &.heading {
+        font-size: 1.5em;
+        text-align: left;
+        height: 64px;
+        line-height: 64px;
+        color: rgba(0, 0, 0, 0.85);
+      }
+    }
+  }
+  tbody {
+    tr {
+      height: 48px;
+      padding-left:24px;
+      td {
+        text-align: left;
+        color:rgba(0,0,0,0.87);
+        padding-left: 56px;
+        &.number {
+          text-align: right;
+        }
+        &:first-of-type {
+          padding-left: 24px;
+        }
+        &:last-of-type {
+          padding-right: 24px;
+        }
+      }
+
+    }
+  }
+}
