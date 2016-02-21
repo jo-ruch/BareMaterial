@@ -1,12 +1,12 @@
 #BareMaterial
-*Front-end framework*
+<!--*Front-end framework*-->
 
 Yes, I know there are a lot of good Material Design based frameworks out there, but most are way to complicated.
 This framework focuses on simplicity. 
 
 Not all Material Design features are included but I will try to add more.
 
-##included
+##Included
 **Basics** 
 - Normalization
 - Metrics
