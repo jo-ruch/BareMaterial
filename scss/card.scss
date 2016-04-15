@@ -9,6 +9,7 @@
   height: auto;
   overflow: visible;
   display: block;
+  position: relative;
   float:left;
   margin:16px 0 0 16px;
 
@@ -41,7 +42,8 @@
     }
 
     .title-over {
-      margin:-56px 0 0 0;
+      position: absolute;
+      bottom:0;
       &.text-protection {
         background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
       }
@@ -69,7 +71,6 @@
     & .sub-head {
       color:$text-muted;
       margin-bottom: 16px;
-      //font-size:14px;
     }
     padding:16px;
   }
@@ -77,10 +78,6 @@
 
 @media screen and (max-width:480px) {
   .card {
-    width:calc(100% - 32px);
-    &.image-card .banner.fixed {
-      width:100%;
-    }
-  }
 
+  }
 }

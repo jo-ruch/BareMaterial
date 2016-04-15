@@ -50,6 +50,14 @@ body {
 $text:rgba(0,0,0,85);
 $text-muted:#777778;
 
+.text {
+  color:$text !important;
+}
+
+.text-muted {
+  color:$text-muted !important;
+}
+
 
 // Shadows
 .depth-1 {
