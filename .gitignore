@@ -1,4 +1,6 @@
 scss/*.map
 scss/*.css
+*.map
+*.css
 .git
 .idea
